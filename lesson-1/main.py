@@ -27,7 +27,7 @@ Math symbols
 + plus
 - minus
 / divide or slash
-* asterisk // also a
+* asteris or multipy 
 % percent sign is used for Math reminder
 < less- than
 > greater- than
