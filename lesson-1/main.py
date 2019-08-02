@@ -76,9 +76,9 @@ print(thousand)
 if number > 2 or number < 10:
     print(number)
 elif number < 2:
-    print('number is less than 2')
+    print("number is less than 2")
 else:
-    print('number is greater')
+    print("number is greater")
 
 # Study drills:
 # Create your own practice file and write something you would like to print out 
