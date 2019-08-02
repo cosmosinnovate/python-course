@@ -13,6 +13,7 @@ print("This is my first day of Data Science and learning python as well")
 # You might ask why does it have '.py' at the end, the reason is that python needs to know how to 
 # process the file you created. This is enough for now. 
 
+
 # Rule of thumb: Don't copy and paste.
 # Rule of thumb: Don't copy and paste. 
 # Rule of thumb: Don't copy and paste. 
@@ -70,14 +71,14 @@ print(thousand)
     if something happens 
     then something else should 
     else nothing should happen
-#   
-    if number > 2 or number < 10:
-        print(number)
-    elif number < 2:
-        print('number is less than 2')
-    else:
-        print('number is greater')
 """
+
+if number > 2 or number < 10:
+    print(number)
+elif number < 2:
+    print('number is less than 2')
+else:
+    print('number is greater')
 
 # Study drills:
 # Create your own practice file and write something you would like to print out 
