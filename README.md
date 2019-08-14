@@ -383,11 +383,13 @@ subtract(4,9)
 #### Collections
 1. List
 2. Tuple
-3. Array
 4. Dictionay
 
 
 Using lists: 
+The list data type has some more methods. Here are all of the methods of list objects:
+Make sure you look at python docs to learn more lists and what you can do with them.
+
 
 ```py
 # This allows you to put items in the back and remove it from the back as well. Last In Last Out
@@ -416,6 +418,7 @@ print(squares) # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
 
 Tuples
+A tuple consists of a number of values separated by commas, for instance:
 
 ```py
 t = 12345, 54321, 'hello!'
@@ -441,11 +444,52 @@ print(v)
 ```
 
 
+Sets
+A set is an unordered collection with no duplicate elements. Basic uses include membership testing and eliminating duplicate entries. Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
 
+```py
+basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+print(basket)                            # show that duplicates have been removed
+print('orange' in basket )               # fast membership testing
+print('crabgrass' in basket)
 
+# Demonstrate set operations on unique letters from two words
 
+a = set('abracadabra')
+b = set('alacazam')
+print(a)                                # unique letters in a
+print(a - b )                           # letters in a but not in b
+print(a | b   )                         # letters in a or b or both
+print(a & b)                            # letters in both a and b
+print(a ^ b )                           # letters in a or b but not both
+```
+Dictionaries
 
+Dictionaries are sometimes found in other languages as “associative memories” or “associative arrays”.
+Unlike sequences, which are indexed by a range of numbers, dictionaries are indexed by keys, which can be any immutable type; strings and numbers can always be keys
 
+For more information about dictionaries go to the python docs. However you will learn how to use all of this in real projects.
+
+```py
+
+tel = {'jack': 4098, 'sape': 4139}
+tel['guido'] = 4127
+print(tel)
+
+print(tel['jack'])
+del tel['sape']
+
+tel['irv'] = 4127
+print(tel)
+
+list(tel)
+print(sorted(tel))
+print('guido' in tel)
+print('jack' not in tel)
+```
+
+### Lesson 3.0 
+# Project coming soon.....
 
 
 
