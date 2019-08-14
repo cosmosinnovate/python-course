@@ -10,3 +10,8 @@ print(file.read()) # Use the read() function to read the loaded files in file pr
 # Uncomment this line before you can run this. 
 print("\n")
 print(file.readline())
+
+# It is always good to close the file when done
+file.close()
+
+
