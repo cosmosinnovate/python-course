@@ -505,6 +505,52 @@ classes and objects
 
 # Examples ...
 
+Before in too deep, python is an Object Oriented programming. 
+Almost everything in python is object with properties and methods
+
+Class: Is like an object constructor or blue print for creating objects.
+
+To create a class you need to have the class keyword.
+When creating your class, it must have the build int ``` __init__ ```function which is always executed when the class is being initialized. 
+The ``` __init__ ``` function is used to assign values to object properties, or other operations when needed during creation of objects. 
+
+```py
+# Class 
+class Person:
+    def __init__(self, name, age): #
+        self.name = name
+        self.age = age
+
+
+James = Person("James", 34)
+Jamila = Person("Jamila", 28)
+
+print("First name: ", James.name, "Age: ", James.age)
+
+```
+You might ask what is the ```self``` parameter: It is a reference to the current instance of the class, and is used to access variables that belongs to the class.
+the self word can be anything you want it to be. But it is always good to use self.
+
+A class has methods which just a function. Example below:
+```py
+# Class 
+class Person:
+    def __init__(self, name, age): #
+        self.name = name
+        self.age = age
+    
+    def full_info(self):
+        return self.name + " "  + str(self.age)
+
+
+James = Person("James", 34)
+Jamila = Person("Jamila", 28)
+
+print("First name: ", James.name, "Age: ", James.age)
+print(full_info())
+
+```
+
 # Projects coming soon....
 
 
