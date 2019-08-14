@@ -489,7 +489,23 @@ print('jack' not in tel)
 ```
 
 ### Lesson 3.0 
-# Project coming soon.....
+
+classes and objects
+
+1. Class - tell python to make something new
+2. object - Most basic of thing and any instance of something
+3. instance - the thing you get when you told python to create from class
+4. def - how to define a function 
+5. self - inside a function and it also a class variable for the instance/object being accessed
+6. inheritance - basically a concept that a class can inherit behaviors from a parent class just how how children inherit their parents traits
+7. attributes - a property the class has
+8. Composition - The concept that classes can be part of another class. Just like how a chair has legs
+9. has-a - something is composed of other things  "Tuna has a mouth"
+10. is-a something inherits from another "Tuna is a fish
+
+# Examples ...
+
+# Project coming soon....
 
 
 
