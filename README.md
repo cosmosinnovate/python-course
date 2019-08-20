@@ -547,7 +547,8 @@ James = Person("James", 34)
 Jamila = Person("Jamila", 28)
 
 print("First name: ", James.name, "Age: ", James.age)
-print(full_info())
+print(James.full_info())
+print(Jamila.full_info())
 
 ```
 
