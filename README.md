@@ -323,12 +323,32 @@ print("See the list)
 print(data)
 ```
 
+You can also tuple to the list
+Try this:
+
+```py
+data = ['Mary', 'had', 'a', 'little', 'lamb'] 
+data.apped(data.append((5, 6))
+print(data)
+```
+
+You the insert method to add a value at specific location in the list
+Try this: 
+
+```py
+data = ['Mary', 'had', 'a', 'little', 'lamb'] 
+data.insert(1, 89) 
+data.insert(0, 'Getting better') 
+print(data)
+```
+
 Access single element from the list using index
 To access an element you will need to use the 
 
 Try this:
 
 ```py
+data = ['Mary', 'had', 'a', 'little', 'lamb'] 
 print("The first element using index 0")
 print(data[0])
 print(data[3])
@@ -340,6 +360,7 @@ Append adds the value back of the list
 
 Try this:
 ```py
+data = ['Mary', 'had', 'a', 'little', 'lamb'] 
 data.append("and sheep")
 print(data)
 ```
@@ -350,6 +371,16 @@ Try this:
 ```py
 numbers = [2, 23,12,24,232]
 print(numbers)
+```
+
+You can remove items from list this way
+
+Try this: 
+
+```
+numbers = [2, 23,12,24,232]
+numbers.remove(5) 
+print()
 ```
 
 You can mix your elements
@@ -453,11 +484,10 @@ subtract(4,9)
 
 
 ### Lesson 2.3
-#### Collections 
+#### Collections and more on list
 1. uses of list
 2. Tuple
 4. Dictionay
-
 
 Using lists: 
 The list data type has some more methods. Here are all of the methods of list objects:
@@ -472,12 +502,14 @@ That is Last in Last out.
 
 Try this: 
 
+Create a new stack list then append a new value to it
 ```py
 stack = [3, 4, 5]
 stack.append(6)
 stack.append(7)
-print(stack)
-print(stack.pop()) # Returns the value remove: Try it
+
+print(stack) # Print out the stack
+print(stack.pop()) # Remove the list you just added.
 ```
 
 ###  Using list as dequeue
@@ -492,12 +524,16 @@ queue = deque(["Eric", "John", "Michael"])
 queue.append("Terry")           # Terry arrives
 queue.append("Graham")          # Graham arrives
 queue.popleft() 
+```
 
+Try this: 
 
-More on list: 
-squares = []
-for x in range(10):
-    squares.append(x**2)
+Add items to an empty list
+
+```py
+squares = [] # Create an empty list
+for x in range(10): # Loop through 1 9 
+    squares.append(x**2) # Square the value
 print(squares) # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 
 ```
