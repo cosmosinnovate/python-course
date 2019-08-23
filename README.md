@@ -582,6 +582,8 @@ Write a book library program using list.
 4. Search a if a book exists in the library
 5. Accept user input
 6. End program when when actions are done print out the lists. (Delete, search, add)
+7. Validate inputs as a string
+9. Print book not found if there is no book
 
 
 
