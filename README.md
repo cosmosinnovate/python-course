@@ -1,7 +1,7 @@
 ## Python: 
 From beginner to advance
 
-This tutorial is designed for people that want to learn how to write python code quickly for fun and to building a project they have been dying to build. You will need to be a daily learner or a seasonal learner, otherwise you will waste your time. This tutorial will have a 30 second videos explaining concepts visually and with longer videos showing you the code in question.
+This tutorial is designed for people that want to learn how to write python code quickly for fun and to building a project they have been dying to build. You will need to be a daily learner or a seasonal learner, otherwise you will waste your time. (Comming out soon) This tutorial will have a 30 second videos explaining concepts visually and with longer videos showing you the code in question.
 
 #### Warning on the Python advantage: Python was designed to help solving problems faster cleanly.
 From experience, the best way for you to learn this material better is how much time you spend experimenting with concepts provided here and other things I have NOT included here.
@@ -53,18 +53,20 @@ cd project
 ```
 Open vscode with code . or just look for it in applications
 
-Go to lession-1 to start coding. 
-
-# Hope all went swiftly. 
+## Hope all went swiftly. 
 
 2. [Click this link to setup your Linux](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04)
 3. [Click this link to setup your Windows](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-windows-10)
 
-### You will some IDE to use for writing your code. 
+#### You will some IDE to use for writing your code. 
 1. [Click this link to down VSCODE](https://code.visualstudio.com/Download)
 
-####Print
-Print things in  python: 
+
+### Lesson 1.1
+
+### Print
+Printing things on screen in  python: 
+Try this:
 
 ```py
 print('I am a new progrommer')
@@ -75,21 +77,26 @@ print('Say hi')
 The print() is a key work in python that tells the computer print something to the screen
 
 ### Drills
-- Try printing something on the computer screen
+Try printing something on the computer screen
+#### Comments
 
-### Lesson 1.1
-####Comments
-
+Multi line comments
+Try this:
 ```py 
-# This is a single comments you can use for shorter comments
-
-""" This is a multi-line comments
-    You can use it to write more comments
+""" 
+    This is a multi-line comments with the three double quotes in the beginning and the end.
 """
 ```
 
+Sinle line comments
+Try this:
+
+```py
+# This is how you do a single line with the pound sign on the left
+```
+
 ### Lession 1.2
-####Numbers and Math
+#### Symbols using in python
 * plus: +
 * Multipy: * 
 * Minus: - 
@@ -101,45 +108,61 @@ The print() is a key work in python that tells the computer print something to t
 * Percent or Modulo:  %
 * Slash/divide: /
 
+
 ### Lesson 1.3
-####Calculation
-### Using the math symbols
+#### Variables
+What is a variable?
+Variables are the left hand place holder for data representation to allow "lazy programmers" organize things in a readable way. Because as programmers, you going to forget things you wrote last night.
+
+You are have already seen variables early: This is what it looks like
+
+Try this: 
+```py
+number = 100 
+name = "Awesomeness"
+```
+
+### Lesson 1.4
+#### Calculation using the math symbols
+Try this:
 
 ```py
 # On the right is a variable
-
-number = 1000 # Use variable whenever you can. Just good practice
-print(number * number) # 1000,000
+number = 1000 # Use variable whenever you can
+print(number * number) # 1000000
 print(number == number) # True
 print(number - 100) # 
 print(number + number) # 
 print(number / 10) # 100
 print(number > 3) # Returns true if number is greater than 3
 print(number < 3) # Return False
-print(number % 10) """ Returns the reminder of the number 0 or 1: 0 means the number divides evenly but not 1"""
+print(number % 10) 
+""" 
+    Returns the reminder of the number 0 or 1: 0 means the number divides evenly but not 1
+"""
 
 # Try some of them that I didn't include here
 ```
-
-####Study drills
+#### Study drills
 * Comment your code whenever you can to get familiar
 * Find numbers to calculate
 * Create a file name example.py and write your code on it.
 * Research floating point
 
 #### Common questions
-* How does % sign work?
+How does % sign work?
+
 The % is not the percentage sign you use as in 100% etc. Instead the % is used to get the reminder of a number. 
 Lets say in math, that a variable x divided by a variable k gives you j with a reminder of either 0 or numbers greater than 1. 
 
 That is x % k = j 
-
 Lets try this out. 
+
+Try this:
 
 ```py
 k = 100
 x = 1000
-
 reminderOne = x % k
 reminderTwo = x % 16
 print(reminderOne) # 0
@@ -151,18 +174,7 @@ In the US we use PEMDAS while the rest of the work uses BODMAS math conventions.
 
 What does / sign mean? It is not a round down. The divide sign in python or any programming language basically means divide a number and take the whole number and nothing after the decimal point. Lets say 10.8, the computer will just return 10 and omit the '.8'. There are many reasons for that we don't care about that now. We will explore data types later to explain what type of things python uses to represent data in memory.
 
-###Lesson 1.4
-####Varibles and Data Types
 
-What is a variable?
-Variables are the left hand place holder for data representation to allow "lazy programmers" organize things in a readable way. Because as programmers, you going to forget things you wrote last night.
-
-You are have already seen variables early: This is what it looks like
-
-```py
-number = 100 
-name = "Awesomeness"
-```
 
 ####Drill
 1. Try to use variable and assign values to the right of it. 
@@ -172,6 +184,9 @@ What are python data types?
 Data types in computer programming it is used to represent data in memory. This is crucial for python to understand how to work with your program in write. 
 
 Example of data types in python
+
+Try this:
+
 1. String: 
 ```py 
 "I am a string"
@@ -208,16 +223,23 @@ character | Meaning
 ### Regular questions
 What is the difference between the '=' and ' == '?
 The single equals '=' is for assigning values to variables like seen earlier in the lessons. 
+
+Try this:
+
 ```py 
 my_name = 'Awesomeness' 
 print(my_name) # my_name has the value in the right. 
 ```
 The double equals '==' is used to varify if something is the same. 
+
+Try this:
 ```py 
 print(10 == 10) # True
 ```
 
 How can I write something like I'll or new line? Python has something called escape characters that will allow you to escape some character and achieve what you want. 
+
+Try this:
 
 ```py
 print("I\'ll come home after I complete \nmy project at 7:00pm ") # \n = means go to next line: Try it yourself.
@@ -231,19 +253,19 @@ We have system setup covered comments, print something, variables, math signs, a
 If you want to learn more about each topics, you would need to just practice writing a program. Aftwerall you need to write code. 
 
 ### Lesson 2.0
-#### Raw data input
+#### Input
 In this lesson you will learn how to take user input and do something with the data. 
 
-In the example below, we are going to use input() function to get user input and do something with it. 
+In the example below, we are going to use input() function to get user input and do something with it.
+
+Try this:
 
 ```py 
 print("How old are you?")
 age = input()
 print("How tall are you?")
 height = input()
-print("How much do you weigh?")
-weight = input()
-
+weight = input("How tall are you?") # You can pass a string like this
 print("So you're %r tall and %r heavy.", (age, height, weight))
 ```
 
@@ -253,21 +275,20 @@ Fun time:
 * Use that make a calculator of some sort. 
 * Try to use numbers. Remember that all values that you get from input is a string. You will need to convert the values. For instance, you can do type casting --this means taking a string and making it an int --we discussed what strings and ints are.
 
-Example: 
+Try this:
 ```py
-# Try this
 numberA = input() # The value of the variable is a string
-
-# Also try
 number = int(input()) # The value of the variable is not a string but int which we need
+print(number)
 ```
-
 
 ### Lesson 2.1
 
-#### Control statements
+#### Control statements (if elif else )
 
 Control statement: This is how you can create logics to do simple or complex desicions
+
+Try this:
 
 ```PY
 """
@@ -276,7 +297,6 @@ Control statement: This is how you can create logics to do simple or complex des
     then something else should 
     else nothing should happen
 """
-
 if number > 2 or number < 10:
     print(number)
 elif number < 2:
@@ -284,7 +304,61 @@ elif number < 2:
 else:
     print("number is greater")
 ```
+#### List
+List is a data structure that used to store temporary data. 
+Example:
 
+Try this:
+```py
+# Creating a List 
+list = [] 
+print("Print a blank list ") 
+print(list) 
+```
+Try this:
+```py
+# Add values to the list
+data = ['Mary', 'had', 'a', 'little', 'lamb'] 
+print("See the list)
+print(data)
+```
+
+Access single element from the list using index
+To access an element you will need to use the 
+
+Try this:
+
+```py
+print("The first element using index 0")
+print(data[0])
+print(data[3])
+```
+
+Adding values to list.
+When adding a value to a list, you can use the build python append method for lists. 
+Append adds the value back of the list
+
+Try this:
+```py
+data.append("and sheep")
+print(data)
+```
+
+You can use list with numbers
+Try this:
+
+```py
+numbers = [2, 23,12,24,232]
+print(numbers)
+```
+
+You can mix your elements
+ 
+Try this:
+```py
+mixed_data = ["Hey", True, 12, 23.0, 'sss']
+print(mixed_data)
+```
 
 #### Loops
 Try this:
@@ -294,7 +368,6 @@ Try this:
 words = ['Dog', 'Cat', 'Windows']
 for w in words:
     print(w, len(w))
-
 
 for w in words[:]:  # Loop over a slice copy of the entire list.
     if len(w) > 6:
@@ -380,8 +453,8 @@ subtract(4,9)
 
 
 ### Lesson 2.3
-#### Collections
-1. List
+#### Collections 
+1. uses of list
 2. Tuple
 4. Dictionay
 
@@ -390,18 +463,32 @@ Using lists:
 The list data type has some more methods. Here are all of the methods of list objects:
 Make sure you look at python docs to learn more lists and what you can do with them.
 
+Stacks
+This allows you to put items in the back and remove it from the back as well. Last In Last Out.
+
+A stack is like a stack of plates. After washing your plates you stack them on to each other. When dinner is ready to remove each plate from the top. 
+
+That is Last in Last out.
+
+Try this: 
 
 ```py
-# This allows you to put items in the back and remove it from the back as well. Last In Last Out
 stack = [3, 4, 5]
 stack.append(6)
 stack.append(7)
 print(stack)
 print(stack.pop()) # Returns the value remove: Try it
+```
 
-# Using list as queue
-from collections import deque  # this in python, imports a package that has all the things you need to do necessary things with deque
-queue = deque(["Eric", "John", "Michael"]) # Deque: First item in and First Item out
+###  Using list as dequeue
+Dequeue is used for priority stuff. 
+For instance you are in line waiting for your coffee. The First person in line gets served First. First in and First out.
+
+Try this:
+```py
+# imports a package that has all the things you need to do necessary things with deque package
+from collections import deque  
+queue = deque(["Eric", "John", "Michael"]) 
 queue.append("Terry")           # Terry arrives
 queue.append("Graham")          # Graham arrives
 queue.popleft() 
@@ -411,10 +498,8 @@ More on list:
 squares = []
 for x in range(10):
     squares.append(x**2)
-
 print(squares) # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 
-# Try this
 ```
 
 Tuples
@@ -447,6 +532,7 @@ print(v)
 Sets
 A set is an unordered collection with no duplicate elements. Basic uses include membership testing and eliminating duplicate entries. Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
 
+Try this:
 ```py
 basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
 print(basket)                            # show that duplicates have been removed
@@ -469,6 +555,8 @@ Dictionaries are sometimes found in other languages as â€œassociative memoriesâ€
 Unlike sequences, which are indexed by a range of numbers, dictionaries are indexed by keys, which can be any immutable type; strings and numbers can always be keys
 
 For more information about dictionaries go to the python docs. However you will learn how to use all of this in real projects.
+
+Try this:
 
 ```py
 
@@ -514,6 +602,8 @@ To create a class you need to have the class keyword.
 When creating your class, it must have the build int ``` __init__ ```function which is always executed when the class is being initialized. 
 The ``` __init__ ``` function is used to assign values to object properties, or other operations when needed during creation of objects. 
 
+Try this:
+
 ```py
 # Class 
 class Person:
@@ -532,6 +622,9 @@ You might ask what is the ```self``` parameter: It is a reference to the current
 the self word can be anything you want it to be. But it is always good to use self.
 
 A class has methods which just a function. Example below:
+
+Try this:
+
 ```py
 # Class 
 class Person:
@@ -555,6 +648,7 @@ print(Jamila.full_info())
 Files:
 Dealing with files very easy. The python library has a function for files called open(). This will allow you to read files from the computer.
 
+Try this:
 
 ```py
 
