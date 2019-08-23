@@ -574,16 +574,24 @@ file.close()```
 
 # Projects coming soon....
 ```
-### Projects
-Write a book library program using list.
-1. Store books in list
-2. Make sure you can add new books to the library
-3. Make sure that you can delete from the library
-4. Search a if a book exists in the library
-5. Accept user input
-6. End program when when actions are done print out the lists. (Delete, search, add)
-7. Validate inputs as a string
-9. Print book not found if there is no book
+### Project 1
+Write a library book directory program using data structure called list.
+Your program should be able to do this actions:
+- Add/Append
+- Search
+- Delete
+
+_____
+Your tasks
+
+1. Store book title in a list
+2. Accept user input
+3. Add a new book title to the library
+4. Make sure that you can delete from the library
+5. Search book's title in the library directory
+6. Print book not found if there is no book
+7. End program when when actions are done print out the lists.
+8. Validate input as a string
 
 
 
