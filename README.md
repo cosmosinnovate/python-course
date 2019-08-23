@@ -575,6 +575,14 @@ file.close()```
 # Projects coming soon....
 ```
 
+Write a book library program using list.
+1. Store books in list
+2. Make sure you can add new books to the library
+3. Make sure that you can delete from the library
+4. Search a if a book exists in the library
+5. Accept user input
+6. End program when when actions are done print out the lists. (Delete, search, add)
+
 
 
 
