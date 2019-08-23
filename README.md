@@ -700,7 +700,7 @@ print("\n")
 print(file.readline())
 
 # It is always good to close the file when done
-file.close()```
+file.close()
 
 # Projects coming soon....
 ```
