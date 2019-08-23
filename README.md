@@ -574,7 +574,7 @@ file.close()```
 
 # Projects coming soon....
 ```
-
+### Projects
 Write a book library program using list.
 1. Store books in list
 2. Make sure you can add new books to the library
