@@ -485,7 +485,7 @@ subtract(4,9)
 
 ### Lesson 2.3
 #### Collections and more on list
-1. uses of list
+1. Uses of list
 2. Tuple
 4. Dictionay
 
@@ -587,6 +587,8 @@ print(a ^ b )                           # letters in a or b but not both
 ```
 Dictionaries
 
+Now that you have learned some list and sets, it is time to learn something very powerful.
+
 Dictionaries are sometimes found in other languages as “associative memories” or “associative arrays”.
 Unlike sequences, which are indexed by a range of numbers, dictionaries are indexed by keys, which can be any immutable type; strings and numbers can always be keys
 
@@ -596,43 +598,67 @@ Try this:
 
 ```py
 
+# new dictionary
 tel = {'jack': 4098, 'sape': 4139}
-tel['guido'] = 4127
+
+# Add new value to the dictionary
+tel['guido'] = 4127 
 print(tel)
 
+# Print the value associated with the key jack
 print(tel['jack'])
+
+# Delete key sape that holds a value
 del tel['sape']
 
+# Add a new value
 tel['irv'] = 4127
 print(tel)
+```
 
-list(tel)
+
+Convert dictionary keys into a list
+
+Try this:
+
+```py
+list(tel) 
+
+# After converting the dictionary to a list, 
+# Now sort it.
+# user the sort function used to sort stuff
 print(sorted(tel))
-print('guido' in tel)
+
+# Check if guido exits in tel list
+print('guido' in tel) 
+
+# Check if jack exits in tel list
 print('jack' not in tel)
 ```
+
+For instance you can use dictionary to 
 
 ### Lesson 3.0 
 
 classes and objects
 
-1. Class - tell python to make something new
-2. object - Most basic of thing and any instance of something
-3. instance - the thing you get when you told python to create from class
-4. def - how to define a function 
-5. self - inside a function and it also a class variable for the instance/object being accessed
-6. inheritance - basically a concept that a class can inherit behaviors from a parent class just how how children inherit their parents traits
-7. attributes - a property the class has
-8. Composition - The concept that classes can be part of another class. Just like how a chair has legs
-9. has-a - something is composed of other things  "Tuna has a mouth"
-10. is-a something inherits from another "Tuna is a fish
+1. Class: tell python to make something new
+2. object: Most basic of thing and any instance of something
+3. instance: the thing you get when you told python to create from class
+4. def: how to define a function 
+5. self: inside a function and also a class variable for the instance/object being accessed
+6. inheritance: basically a concept that a class can inherit behaviors from a parent class just like how how some children inherit their parents traits
+7. attributes: a property forclass
+8. Composition: The concept that classes can be part of another class. Just like how a chair has legs
+9. hasa: something is composed of other things  "Tuna has a mouth"
+10. is-a: something inherits from another "Tuna is a fish
 
 # Examples ...
 
-Before in too deep, python is an Object Oriented programming. 
+Before we dive in too deep, python is an Object Oriented programming. 
 Almost everything in python is object with properties and methods
 
-Class: Is like an object constructor or blue print for creating objects.
+Class: Is a blue print for creating objects.
 
 To create a class you need to have the class keyword.
 When creating your class, it must have the build int ``` __init__ ```function which is always executed when the class is being initialized. 
@@ -657,7 +683,7 @@ print("First name: ", James.name, "Age: ", James.age)
 You might ask what is the ```self``` parameter: It is a reference to the current instance of the class, and is used to access variables that belongs to the class.
 the self word can be anything you want it to be. But it is always good to use self.
 
-A class has methods which just a function. Example below:
+A class has methods which is just a function.
 
 Try this:
 
