@@ -723,6 +723,7 @@ Your tasks
 7. End program when when actions are done print out the lists.
 8. Validate input as a string
 
+#### If you reach here and are pleased, please star this repo or else give your feedback to improve this course
 
 
 
