@@ -7,14 +7,14 @@ def add(a,b):
     print(a+b) 
 
 # Another way to do the same thing
-def add(a,b): 
-    c = a + b # variable c holds your answer 
-    print(c) # print value in c
+# def _add(a,b): 
+#     c = a + b # variable c holds your answer 
+#     print(c) # print value in c
 
 
-# Another way to do the same thing
-def add(a,b): 
-    return a + b # This returns value but it does not print. :hint put the method in print
+# # Another way to do the same thing
+# def add(a,b): 
+#     return a + b # This returns value but it does not print. :hint put the method in print
     
 
 def subtract(a,b):
@@ -37,3 +37,4 @@ add(90, 10)
 #  Todo
 subtract(4,9)
 # Do the same for the remaining Function
+

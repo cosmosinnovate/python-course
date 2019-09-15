@@ -730,7 +730,7 @@ file.close()
 
 # Projects coming soon....
 ```
-### Project 1
+### Project 1 => Implementing your knowledge
 Write a library book directory program using data structure called list.
 Your program should be able to do this actions:
 - Add/Append
@@ -748,6 +748,18 @@ Your tasks
 6. Print book not found if there is no book
 7. End program when when actions are done print out the lists.
 8. Validate input as a string
+
+
+### Project 2 => Files
+Modify your project one code to do use files. Try safe your data to csv and be able to load data from 
+from file type csv or json. 
+1. Explore the python file library to see what else you can do.
+
+
+### Project 3 => Code clean up.
+Identify any thing that you can group together into a function.
+
+
 
 #### If you reach here and are pleased, please star this repo or else give your feedback to improve this course
 

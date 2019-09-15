@@ -38,6 +38,6 @@ for item in list_of_books:
 
 # delete a single book title from the list then print out the remining list of book titles in the library
 book_title = input("Enter a book\'s title")
-list_of_books.delete(book_title)
+list_of_books.remove(book_title)
 
 # print the list of the books
