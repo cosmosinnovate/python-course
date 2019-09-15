@@ -17,9 +17,9 @@ import csv
 # Json data:
 nobel_winners = [
     {
-        "category": "Math",
-        "name": "Jon Kamau",
-        "nationality": "Kenya",
+        "category": "Agriculture",
+        "name": "Jon",
+        "nationality": "USA",
         "sex": "Male",
         "year": "1918",
     },
@@ -39,16 +39,16 @@ nobel_winners = [
     },
     {
         "category": "Technology",
-        "name": "Taban Cosmos",
+        "name": "Cosmos",
         "nationality": "South Sudanese-American",
         "sex": "Male",
         "year": "2026",
     },
     {
         "category": "Data Science",
-        "name": "Kaku Cosmos",
+        "name": "Jane",
         "nationality": "South Sudanese-American",
-        "sex": "Male",
+        "sex": "Female",
         "year": "2030",
     },
 ]

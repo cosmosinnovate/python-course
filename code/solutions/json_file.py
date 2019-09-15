@@ -25,16 +25,16 @@ nobel_winners = [
     },
     {
         "category": "Technology",
-        "name": "Taban Cosmos",
+        "name": "Cosmos",
         "nationality": "South Sudanese-American",
         "sex": "Male",
         "year": "2026",
     },
     {
         "category": "Data Science",
-        "name": "Kaku Cosmos",
+        "name": "Jane",
         "nationality": "South Sudanese-American",
-        "sex": "Male",
+        "sex": "Famale",
         "year": "2030",
     },
 ]
