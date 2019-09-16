@@ -35,7 +35,6 @@ print(object_returned.inserted_id)
 # Find one function returns the first one item in the database
 print(collection.find_one())
 
-print(collection.find())
 
 """
    For you exercise, try the following
