@@ -22,6 +22,7 @@ My hope is that by the end of this tutorial you should be equipped with knowledg
 9. Learn RESTful apis
 10. Learn rGPC a faster and secure way of RESTful version
 11. Blockchain bonus
+12. Links to resources
 
 
 ### Lesson 1.0 
@@ -762,6 +763,11 @@ Identify any thing that you can group together into a function.
 
 
 #### If you reach here and are pleased, please star this repo or else give your feedback to improve this course
+
+
+## Links to resources
+
+1. [Learn more about JSON data format](http://www.json.org/)
 
 
 

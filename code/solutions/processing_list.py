@@ -1,6 +1,6 @@
 from __future__ import print_function
 
-# Students
+#  How to process data in list 
 student_data = [
     {"name": "Kortze", "id": 1, "scores": [68, 70, 56, 98]},
     {"name": "Kalo", "id": 2, "scores": [68, 100, 56, 100]},

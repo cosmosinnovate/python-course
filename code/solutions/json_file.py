@@ -1,6 +1,10 @@
 import json
 
-# Json data:
+""" 
+  Process list data into JSON
+  
+"""
+
 nobel_winners = [
     {
         "category": "Math",
@@ -43,6 +47,11 @@ nobel_winners = [
 with open('../data/json_data.json', 'w') as json_data:
     json.dump(nobel_winners, json_data)
 
-#  Load the data and print it out
-data = open('../data/json_data.json').read()
-print(data)
+# Load the data and print it out
+# data = open('../data/json_data.json').read()
+# print(data)
+
+# Load the data and print it out
+with open('../data/json_data.json') as f_json:
+    nobel_winners_json = json.load(f_json)
+print(nobel_winners_json)

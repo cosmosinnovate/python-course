@@ -1,7 +1,11 @@
 import csv
+"""
+    Processing list to CSV
+    
+    This will allow you to read files from the computer.
+    Make sure that your file in the same directory
 
-# This will allow you to read files from the computer.
-# Make sure that your file in the same directory
+"""
 
 # file = open("Outpatient_Imaging_Efficiency_National.csv", "r")  # Load the file
 # # Run this then comment it out before you run the below function
