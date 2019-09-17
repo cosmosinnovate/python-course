@@ -1,3 +1,4 @@
 This tutorial is designed for people 
 that want to learn how to write python 
-code quickly for fun and to building
+code quickly for fun or lookig for a 
+data science or backend job

@@ -1,14 +1,16 @@
-## Python: 
+## Python Programming With Data Science
 From beginner to advance
 
-This tutorial is designed for people that want to learn how to write python code quickly for fun and to building a project they have been dying to build. You will need to be a daily learner or a seasonal learner, otherwise you will waste your time. (Comming out soon) This tutorial will have a 30 second videos explaining concepts visually and with longer videos showing you the code in question.
+First and foremost I am dedicating this course material to my sister Kaku Cosmos whom I am teaching how to code.
 
-#### Warning on the Python advantage: Python was designed to help solving problems faster cleanly.
-From experience, the best way for you to learn this material better is how much time you spend experimenting with concepts provided here and other things I have NOT included here.
-Increase your curiosity in order to leverage your creativity.
+This tutorial is designed for people that want to learn how to write python code quickly for fun and to building a project they have been dying to build. You will need to be a daily learner or a seasonal learner, otherwise you will "waste" your time. This tutorial will have a 30 second videos (Comming out soon) explaining concepts visually and with longer videos showing you the code in question.
 
-Writing software is another art of expressing your thoughts. Software today is being used for everything.
-My hope is that by the end of this tutorial you should be equipped with knowledge you can use to build things for fun or getting that software engineer job or build your own company. 
+#### ⚠️ Python was designed for simplicity. It might might look easy but you can so much with. It also allows developers to solve problems faster cleanly.
+
+From experience, the best way for you to learn this material will depend on how curious you are and how much time you spend experimenting with concepts provided here and others NOT included here --take a look at the extra resources in the bottom later after you finish the entire reading. :) 
+
+Writing software is an art of expressing your logical or design thoughts in code. Software today is being used for everything from art, airplanes, cars, computers, healthcare, and search engines etc. You can choose to become an app developer (web or mobile), AI/ML, AR/VR, Data Scientist, Softaware engineer Researcher etc.
+My hope for you is that by the end of this tutorial you will be equipped with knowledge you can use to build things for fun or getting that software engineering job or build your own company. 
 
 #### What to expect
 1. Learn the basics python
@@ -26,7 +28,7 @@ My hope is that by the end of this tutorial you should be equipped with knowledg
 
 
 ### Lesson 1.0 
-## Setup you Mac/Linux/Windows here:        
+## Seting your computers        
 1. [Click this link to setup your mac](https://programwithus.com/learn-to-code/install-python3-mac/)
 ### Install xcode
 * Go here to downloan xcode: Go to App Store search xcode then download it. Follow all the instruction 
@@ -62,6 +64,9 @@ Open vscode with code . or just look for it in applications
 #### You will some IDE to use for writing your code. 
 1. [Click this link to down VSCODE](https://code.visualstudio.com/Download)
 
+### Ipython
+If you would like something a little nicer, you can install ipython. No recommded but it is good.
+1. [Ipython Installation from codeacademy](https://www.codecademy.com/articles/how-to-use-ipython)
 
 ### Lesson 1.1
 
@@ -69,15 +74,34 @@ Open vscode with code . or just look for it in applications
 Printing things on screen in  python: 
 Try this:
 
+Open your terminal and type ipython or type python and press enter to get a shell command and then type the follow code on it.
+
 ```py
 print('I am a new progrommer')
 print('Learninng the dangerous Python Language')
 print('Next time you see me,')
 print('Say hi')
 ```
-The print() is a key work in python that tells the computer print something to the screen
 
-### Drills
+This is what ipython would look like.
+
+```bash
+In [1]: print('I am a new progrommer') 
+   ...: print('Learninng the dangerous Python Language') 
+   ...: print('Next time you see me,') 
+   ...: print('Say hi')                                                                                                              
+I am a new progrommer
+Learninng the dangerous Python Language
+Next time you see me,
+Say hi
+
+In [2]: 
+```
+
+
+The print() function tells the computer to print something to the screen
+
+### Study Drills
 Try printing something on the computer screen
 #### Comments
 
@@ -113,14 +137,20 @@ Try this:
 ### Lesson 1.3
 #### Variables
 What is a variable?
-Variables are the left hand place holder for data representation to allow "lazy programmers" organize things in a readable way. Because as programmers, you going to forget things you wrote last night.
+Variables are the left hand place holder for data representation to allow programmers "lazy" organize things in a readable way. Because as programmers, you going to forget things you wrote last night.
 
-You are have already seen variables early: This is what it looks like
+This is what variables looks like
 
 Try this: 
 ```py
 number = 100 
 name = "Awesomeness"
+```
+
+Ipython
+```bash
+In [2]: number = 100                                                                                                                 
+In [3]: name = "Awesome"
 ```
 
 ### Lesson 1.4
@@ -144,10 +174,41 @@ print(number % 10)
 
 # Try some of them that I didn't include here
 ```
+
+Ipython
+```bash
+In [1]: # On the right is a variable 
+   ...: number = 1000 # Use variable whenever you can 
+   ...: print(number * number) # 1000000 
+   ...: print(number == number) # True 
+   ...: print(number - 100) #  
+   ...: print(number + number) #  
+   ...: print(number / 10) # 100 
+   ...: print(number > 3) # Returns true if number is greater than 3 
+   ...: print(number < 3) # Return False 
+   ...: print(number % 10)  
+   ...: """  
+   ...:     Returns the reminder of the number 0 or 1: 0 means the number divides evenly but not 1 
+   ...: """ 
+   ...:  
+   ...: # Try some of them that I didn't include here                                                                                
+1000000
+True
+900
+2000
+100.0
+True
+False
+0
+Out[1]: ' \n    Returns the reminder of the number 0 or 1: 0 means the number divides evenly but not 1\n'
+
+In [2]: 
+```
+
 #### Study drills
-* Comment your code whenever you can to get familiar
+* Comment your code all the time to form a habbit.
 * Find numbers to calculate
-* Create a file name example.py and write your code on it.
+* Create a file and name whatever (example.py) and write your code on it.
 * Research floating point
 
 #### Common questions
@@ -169,6 +230,17 @@ reminderTwo = x % 16
 print(reminderOne) # 0
 print(reminderTwo) # 8
 ```
+Ipython
+```bash
+In [2]: k = 100 
+   ...: x = 1000 
+   ...: reminderOne = x % k 
+   ...: reminderTwo = x % 16 
+   ...: print(reminderOne) # 0 
+   ...: print(reminderTwo) # 8                                                                                                       
+0
+8
+```
 
 Order of operations in math:
 In the US we use PEMDAS while the rest of the work uses BODMAS math conventions. Remember this is just to help understand the order of operations. 
@@ -177,7 +249,7 @@ What does / sign mean? It is not a round down. The divide sign in python or any 
 
 
 
-####Drill
+### Study Drills
 1. Try to use variable and assign values to the right of it. 
 2. Print do something with the variables through out your program
 
@@ -231,11 +303,22 @@ Try this:
 my_name = 'Awesomeness' 
 print(my_name) # my_name has the value in the right. 
 ```
+```bash
+In [3]: my_name = 'Awesomeness'  
+   ...: print(my_name) # my_name has the value in the right.                                                          
+Awesomeness
+```
 The double equals '==' is used to varify if something is the same. 
 
 Try this:
 ```py 
 print(10 == 10) # True
+```
+Ipython
+```bash
+In [4]: print(10 == 10)
+
+True
 ```
 
 How can I write something like I'll or new line? Python has something called escape characters that will allow you to escape some character and achieve what you want. 
@@ -246,10 +329,22 @@ Try this:
 print("I\'ll come home after I complete \nmy project at 7:00pm ") # \n = means go to next line: Try it yourself.
 ```
 
+Ipython
+```bash
+In [5]: print("I\'ll come home after I complete \nmy project at 7:00pm ") 
+   ...: f. 
+   ...:                                                                                                               
+I'll come home after I complete 
+my project at 7:00pm 
+
+In [6]:
+```
+
 
 ### Summary
-In lesson 1 we covered what you really need to know do build simple projecgt without bogging you with too much information. 
-We have system setup covered comments, print something, variables, math signs, and data types. 
+In lesson 1 we covered what you need to know to build simple project without bogging your mind with too much details.
+
+We have covered system setup, comments, printing on screen, variables, and math signs. 
 
 If you want to learn more about each topics, you would need to just practice writing a program. Aftwerall you need to write code. 
 
@@ -262,17 +357,30 @@ In the example below, we are going to use input() function to get user input and
 Try this:
 
 ```py 
-print("How old are you?")
-age = input()
-print("How tall are you?")
-height = input()
-weight = input("How tall are you?") # You can pass a string like this
-print("So you're %r tall and %r heavy.", (age, height, weight))
+# The input function takes in a variable. Look into the input function later if you ar curious about it. Otherwise this will do.
+age = input("How old are you?")
+height = input("How tall are you?")
+weight = input("What is your weight?")
+print("So you're: %s and this tall: %s and this weight: %s "%(age, height, weight))             
+``` 
+
+Run the program using Ipython
+```bash
+In [17]: age = input("How old are you?") 
+    ...: height = input("How tall are you?") 
+    ...: weight = input("What is your weight?") 
+    ...: print("So you're: %s and this tall: %s and this weight: %s "%(age, height, weight))                          
+How old are you?31
+How tall are you?511
+What is your weight?190
+So you're: 31 and this tall: 511 and this weight: 190 
+
+In [18]: 
 ```
 
+### Study Drills
 Fun time:
-
-* Now go ahead and look for ways you can improve the code above online. Like how can you use the input function to do other things. Such as if you want the value to be 
+* Now go ahead and look for ways you can improve the code above. Like how can you use the input function to do other things. Such as if you want the value to be 
 * Use that make a calculator of some sort. 
 * Try to use numbers. Remember that all values that you get from input is a string. You will need to convert the values. For instance, you can do type casting --this means taking a string and making it an int --we discussed what strings and ints are.
 
@@ -756,14 +864,10 @@ Modify your project one code to do use files. Try safe your data to csv and be a
 from file type csv or json. 
 1. Explore the python file library to see what else you can do.
 
-
 ### Project 3 => Code clean up.
 Identify any thing that you can group together into a function.
 
-
-
-#### If you reach here and are pleased, please star this repo or else give your feedback to improve this course
-
+#### ✌️ If you reached this far and are pleased, please star this repo or a feedback to improve this course. ✌️
 
 ## Links to resources
 
