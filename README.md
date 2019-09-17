@@ -5,40 +5,40 @@ First and foremost I am dedicating this course material to my sister Kaku Cosmos
 
 This tutorial is designed for people that want to learn how to write python code quickly for fun and to building a project they have been dying to build. You will need to be a daily learner or a seasonal learner, otherwise you will "waste" your time. This tutorial will have a 30 second videos (Comming out soon) explaining concepts visually and with longer videos showing you the code in question.
 
-#### ⚠️ Python was designed for simplicity. It might might look easy but you can so much with. It also allows developers to solve problems faster cleanly.
+#### ⚠️ Python was designed for simplicity. It might look easy but you can so much with. It also allows developers to solve problems faster cleanly.
 
-From experience, the best way for you to learn this material will depend on how curious you are and how much time you spend experimenting with concepts provided here and others NOT included here --take a look at the extra resources in the bottom later after you finish the entire reading. :) 
+The best way for you to learn this material will depend on how curious you are and how much time you spend experimenting with concepts provided here and others NOT included here --take a look at the extra resources in the bottom later after you finish the entire reading. 😊
 
-Writing software is an art of expressing your logical or design thoughts in code. Software today is being used for everything from art, airplanes, cars, computers, healthcare, and search engines etc. You can choose to become an app developer (web or mobile), AI/ML, AR/VR, Data Scientist, Softaware engineer Researcher etc.
+Writing software is an art of expressing your logical or design thoughts in code. Software today is being used for everything from art, airplanes, cars, computers, healthcare, and search engines etc.. You can choose to become an app developer (Web or Mobile), AI/ML, AR/VR, Data Scientist, Softaware Engineer Researcher etc.
+
 My hope for you is that by the end of this tutorial you will be equipped with knowledge you can use to build things for fun or getting that software engineering job or build your own company. 
 
 #### What to expect
-1. Learn the basics python
+1. Learn the of basics python
 2. Learn advance way of processing files
 3. Learn how to read and understand code 
 4. Learn how to best search for something you are not sure of
 5. Learn how to write small programs
-6. Learn to build data scrapping from the Internet
+6. Learn to build data scrapping tool
 7. Learn to build data vizualization 
 8. Learn to build a simple web application
-9. Learn RESTful apis
+9. Learn RESTful APIs
 10. Learn rGPC a faster and secure way of RESTful version
 11. Blockchain bonus
 12. Links to resources
 
 
 ### Lesson 1.0 
-## Seting your computers        
+## Setting up your computers        
 1. [Click this link to setup your mac](https://programwithus.com/learn-to-code/install-python3-mac/)
 ### Install xcode
-* Go here to downloan xcode: Go to App Store search xcode then download it. Follow all the instruction 
+* Go here to downloan xcode: Go to App Store search xcode then download it. Follow all the instructions. 
 
 ### Install Python
-* To install python, go to this website and click download: 
-https://www.python.org/downloads/
+* [To install python, go to this website and click download](https://www.python.org/downloads/)
 
 ### Path Setup
-* Next, we need to setup our path through terminal. 
+* Next, we need to setup the path through terminal. 
 * Type terminal in your mac spotlight and open terminal app
 * Once you have that open, then you will need to paste this: ```export PATH="$PATH:/usr/local/bin/python"```
 
