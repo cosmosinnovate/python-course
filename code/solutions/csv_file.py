@@ -86,7 +86,7 @@ with open("../data/nobel_winner.csv", "r") as load_data:
 
 # You can display your data like so
 for row in load_noble_winners:
-    print(row[0], row[1], (row[2]), row[3], row[4])  # This will print out the data
+    print(row[0], row[1])  # This will print out the data
 
 # Give it a go with different data and try eot
 
